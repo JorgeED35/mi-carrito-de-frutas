@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buy some fruts</title>
+    <title>DOJO CTC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
@@ -15,9 +15,12 @@
             <article class="col-sm-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">🍓Fresa</h5>
-                        <p class="lead">$300</p>
-                        <button class="btn btn-outline-primary fresaBut" data-fruta="Fresa" data-price="300"
+                        <h4 class="card-title">Plan Basic <span class="badge bg-secondary">+</span></h4>
+                        <br>
+                        <p class="lead">10 GB Free Spaace</p>
+                        <br>
+                        <p class="lead">Free</p>
+                        <button class="btn btn-outline-success fresaBut" data-fruta="Fresa" data-price="300"
                         >Agregar</button>
                     </div>
                 </div>
@@ -26,9 +29,16 @@
             <article class="col-sm-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">🍌Banana</h5>
-                        <p class="lead">$100</p>
-                        <button class="btn btn-outline-primary bananaBut" data-fruta="Bananoo" data-price="100"
+                        <h4 class="card-title">Plan Pro <span class="badge bg-secondary">+</span></h4>
+                        <br>
+                        <p class="lead">100 GB Free Spaace</p>
+                        <br>
+                        <p class="lead">+ velocidad en+ Manejo de datos </p>
+                        <br>
+                        <p class="lead">Sin anuncios</p>
+                        <br>
+                        <p>$10 USD Mens</p>
+                        <button class="btn btn-outline-success bananaBut" data-fruta="Bananoo" data-price="100"
                         >Agregar</button>
                     </div>
                 </div>
@@ -37,9 +47,19 @@
             <article class="col-sm-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">🍍Piña</h5>
-                        <p class="lead">$200</p>
-                        <button class="btn btn-outline-primary piñaBut" data-fruta="Piña" data-price="200"
+                        <h4 class="card-title">+ Plan Premium <span class="badge bg-secondary">+</span></h4>
+                        <br>
+                        <p class="lead">+1000 GB Free Space</p>
+                        <br>
+                        <p class="lead">Sin anuncios</p>
+                        <br>
+                        <P class="lead">+ Calidad y conservacoion de los archivos</P>
+                        <br>
+                        <p class="lead">+ velocidad en manejo de datos </p>
+                        <br>
+                        <p class="lead"></p>
+                        <p class="lead">$25 USD mens</p>
+                        <button class="btn btn-outline-success piñaBut" data-fruta="Piña" data-price="200"
                         >Agregar</button>
                     </div>
                 </div>
@@ -47,39 +67,9 @@
             
         </div>
     </main>
-     
-     <section class="container mt-3">
-        <ul class="list-group" id="carrito"></ul>
-    </section>
-
-    <footer id="footer" class="container mt-3 ">
-        <template id="templateFt">
-            <div class="card">
-                    <div class="card-body d-flex justify-content-between ">
-                        <p class="lead mb-0 ">TOTAL: $<span>1500</span></p>
-                        <button class="btn btn-outline-danger"
-                        >Finalizar compra</button>
-                    </div>
-            </div>
-        </template>
-    </footer>
     
-    <template id="template">
-        <li class="list-group-item bg-secondary text-white">
-            <span class="badge bg-primary rounded-pill align-middle">12</span>
-            <span class="lead align-middle">🍓Fresa</span>
-        </li>
-        <li class="list-group-item d-flex align-items-center justify-content-between">
-            <div>
-                <p class="lead mb-0">Total : $<span>300</span></p>
-            </div>
-
-            <div>
-                <button class="btn btn-sm btn-danger">Quit</button>
-                <button class="btn btn-sm btn-success">Add</button>
-            </div>
-        </li>
-    </template>
+    
+    
     
     <script src="carr.js"></script>
 </body>
